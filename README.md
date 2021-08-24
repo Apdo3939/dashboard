@@ -39,6 +39,39 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Link do projeto no Figma:
+
+(https://www.figma.com/file/vnK7024sr7YkEe3QdvAFT6/BDS3-dashboard?node-id=0%3A1)
+
+## Configuração do Eslint e Prettier
+
+instalar as dependências necessárias:
+
+yarn add eslint prettier eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-config-prettier eslint-plugin-prettier --dev
+
+Certifique-se de instalar as extensões do Eslint e Prettier no VSCode
+
+Copiar o arquivo .eslintrc.js e adicionar na raiz da pasta front-web
+
+Copiar o arquivo .prettierrc.js e adicionar na raiz da pasta front-web
+
+Editar preferências do VSCode:
+
+"editor.codeActionsOnSave": {
+"source.fixAll.eslint": true
+},
+"editor.formatOnSave": true,
+"eslint.alwaysShowStatus": true,
+
+## React-flatpickr
+
+(https://flatpickr.js.org/)
+(https://github.com/haoxins/react-flatpickr)
+
+## Apex Charts
+
+(https://apexcharts.com/)
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
