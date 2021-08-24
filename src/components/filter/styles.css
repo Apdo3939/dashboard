@@ -1,0 +1,27 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+  height: 80px;
+  padding: 0 32px;
+}
+
+.filter-input {
+  height: 48px;
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  font-size: 16px;
+  border: 1px solid var(--light-color);
+  border-radius: 8px;
+  width: 250px;
+  padding: 12px;
+}
+
+.filter-input:first-of-type {
+  margin-right: 48px;
+}
+
+.filter-input::placeholder {
+  color: var(--light-color);
+  font-size: 16px;
+}

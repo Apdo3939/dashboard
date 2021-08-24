@@ -33,3 +33,8 @@ h5,
 h6 {
   margin: 0;
 }
+
+.base-card {
+  border-radius: 8px;
+  background-color: var(--primary-color);
+}
