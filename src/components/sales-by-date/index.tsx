@@ -2,13 +2,39 @@ import './styles.css';
 import ReactApexChart from 'react-apexcharts';
 import { chartOptions } from './helpers';
 
-const initialDate = [
-  { x: '2020-01-01', y: 125 },
-  { x: '2020-02-01', y: 210 },
-  { x: '2020-03-01', y: 180 },
-  { x: '2020-04-01', y: 120 },
-  { x: '2020-05-01', y: 160 },
-  { x: '2020-06-01', y: 250 }
+const initialData = [
+  {
+    x: '2020-01-01',
+    y: 45
+  },
+  {
+    x: '2020-01-02',
+    y: 55
+  },
+  {
+    x: '2020-01-03',
+    y: 39
+  },
+  {
+    x: '2020-01-04',
+    y: 25
+  },
+  {
+    x: '2020-01-05',
+    y: 35
+  },
+  {
+    x: '2020-01-06',
+    y: 20
+  },
+  {
+    x: '2020-01-07',
+    y: 50
+  },
+  {
+    x: '2020-01-01',
+    y: 30
+  }
 ];
 
 export default function SalesByDate() {
@@ -29,7 +55,7 @@ export default function SalesByDate() {
         <div className="sales-by-date-chart">
           <ReactApexChart
             options={chartOptions}
-            series={[{ name: 'Vendas', data: initialDate }]}
+            series={[{ name: 'Vendas', data: initialData }]}
             type="bar"
             height={240}
             width="100%"
