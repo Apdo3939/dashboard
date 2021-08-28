@@ -1,0 +1,46 @@
+.sales-table-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+.sales-table-title {
+  font-size: 18px;
+  color: #3e82f7;
+  margin-bottom: 30px;
+}
+
+.sales-table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.sales-table thead th {
+  text-align: left;
+  height: 48px;
+  font-size: 1rem;
+  color: #04d182;
+}
+
+.sales-table tbody td {
+  height: 48px;
+  border-top: 1px solid var(--light-color);
+  font-size: 0.8rem;
+  transition: background .3s;
+}
+
+.sales-table tbody tr:hover>td {
+  background-color: var(--secondary-color);
+}
+
+.sales-table tbody tr:nth-child(even) {
+  background-color: #28314200;
+  color: #ffc107;
+}
+
+.sales-table tbody tr:nth-child(odd) {
+  background-color: #283142ff;
+  color: #ff6b72;
+}
