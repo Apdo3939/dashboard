@@ -5,3 +5,7 @@ export const formatterPrice = (price: number) => {
     currency: 'BRL'
   }).format(price);
 };
+
+export const formatterDate = (date: Date) => {
+  return date.toLocaleDateString();
+};
